@@ -11,9 +11,9 @@
 <!-- ══════════════════════════════════════════════ -->
 
 <p>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/abdul-moiz-ansari-91a132234" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
   <a href="https://github.com/AbdulMoizAns"><img src="https://img.shields.io/badge/GitHub-Follow-%23181717?style=for-the-badge&logo=github&logoColor=white" /></a>&nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>&nbsp;
+  <a href="https://abdulmoizans.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>&nbsp;
   <a href="mailto:support@edusaas.site"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
