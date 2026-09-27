@@ -87,6 +87,8 @@ class AbdulMoizAnsari:
   <img src="https://img.shields.io/badge/Layer--3%20TUN-VPN-orange?style=for-the-badge&logo=wireguard&logoColor=white" />
   <img src="https://img.shields.io/badge/Sing--Box-FF5722?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Wintun%20Driver-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" />
   <img src="https://img.shields.io/badge/CustomTkinter-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Windows%20API-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare%20DoH-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
@@ -113,6 +115,7 @@ class AbdulMoizAnsari:
 | Project | Stack | Highlights | Release |
 | :--- | :--- | :--- | :--- |
 | ⚡ **[XION VPN](https://github.com/AbdulMoizAns/XION-VPN)** | `Python` `Sing-Box` `CustomTkinter` `Wintun` | Cyberpunk Desktop VPN Workstation. Layer-3 full-system TUN routing, Cloudflare DoH, IPv6 leak blocker, active kill switch. 0% IP/DNS leak on 2ip.io audit. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-10B981?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/XION-VPN/releases/tag/v1.0.0) |
+| 🎨 **[Drox Screen Studio](https://github.com/AbdulMoizAns/drox)** | `Python` `PyQt6` `FFmpeg` `GDI BitBlt` | High-performance Windows screen annotation & desktop presentation suite. 25-30 FPS BitBlt capture, synchronized mic audio recording, laser pointer, spotlight & blackboard/whiteboard. | [![MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AbdulMoizAns/drox) |
 | 🤖 **[AI Typing Assistant](https://github.com/AbdulMoizAns/typing-assistant)** | `Python` `NLP` `AI` `pywin32` | AI-powered global Windows typing assistant. Gboard-style next-word prediction, Roman Urdu/English support, zero-trust air-gap privacy firewall. 69/69 tests passing. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-8B5CF6?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/typing-assistant/releases/tag/v1.0.0) |
 | 🔧 **[Win Driver Updater](https://github.com/AbdulMoizAns/win-driver-updater)** | `Python` `PnPUtil` `Windows API` `Tkinter` | Open-source Windows hardware scanner. Queries Microsoft Update Catalog directly for WHQL-certified driver updates. Zero external dependencies. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-2563EB?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/win-driver-updater/releases/tag/v1.0.0) |
 | ⚡ **[SHOX System Monitor](https://github.com/AbdulMoizAns/shox)** | `Python` `Win32` `Taskbar` `Watchdog` | Ultra-fast, zero-dependency Windows system resource monitor, hang watchdog & floating taskbar mini-bar. | [![MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AbdulMoizAns/shox) |
