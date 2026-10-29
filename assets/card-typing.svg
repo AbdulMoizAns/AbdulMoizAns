@@ -74,7 +74,7 @@
         </g>
         <g transform="translate(24, 139)">
           <circle cx="4" cy="4" r="2.5" fill="#a855f7" />
-          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Dual-language phonetic engine for Roman Urdu & international English</text>
+          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Dual-language phonetic engine for Roman Urdu &amp; international English</text>
         </g>
         <g transform="translate(24, 163)">
           <circle cx="4" cy="4" r="2.5" fill="#a855f7" />

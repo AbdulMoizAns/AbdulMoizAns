@@ -70,15 +70,15 @@
   
         <g transform="translate(24, 115)">
           <circle cx="4" cy="4" r="2.5" fill="#00f0ff" />
-          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Enterprise multi-tenant school OS powering primary schools & colleges</text>
+          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Enterprise multi-tenant school OS powering primary schools &amp; colleges</text>
         </g>
         <g transform="translate(24, 139)">
           <circle cx="4" cy="4" r="2.5" fill="#00f0ff" />
-          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">8 isolated RBAC roles, 300+ REST APIs & 69 relational models</text>
+          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">8 isolated RBAC roles, 300+ REST APIs &amp; 69 relational models</text>
         </g>
         <g transform="translate(24, 163)">
           <circle cx="4" cy="4" r="2.5" fill="#00f0ff" />
-          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Dynamic 10s anti-proxy QR attendance & automated WhatsApp bot</text>
+          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">Dynamic 10s anti-proxy QR attendance &amp; automated WhatsApp bot</text>
         </g>
 
   <!-- Chips -->

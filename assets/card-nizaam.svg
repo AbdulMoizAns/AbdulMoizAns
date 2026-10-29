@@ -74,7 +74,7 @@
         </g>
         <g transform="translate(24, 139)">
           <circle cx="4" cy="4" r="2.5" fill="#10b981" />
-          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">ESC/POS 58mm/80mm thermal receipt printing & verification QR</text>
+          <text x="14" y="8" fill="#cbd5e1" font-size="11" class="font-sans">ESC/POS 58mm/80mm thermal receipt printing &amp; verification QR</text>
         </g>
         <g transform="translate(24, 163)">
           <circle cx="4" cy="4" r="2.5" fill="#10b981" />
