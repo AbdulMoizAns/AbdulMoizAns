@@ -1,45 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 50" width="100%" height="100%" style="background:transparent;">
-  
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 48" width="100%" height="100%" style="background:transparent;">
   <defs>
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F0FF" />
-      <stop offset="100%" stop-color="#7000FF" />
+    <linearGradient id="lineGradLeft_contact" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.8" />
     </linearGradient>
-    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#A855F7" />
-      <stop offset="100%" stop-color="#FF007A" />
+    <linearGradient id="lineGradRight_contact" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10B981" />
-      <stop offset="100%" stop-color="#00F0FF" />
-    </linearGradient>
-    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#EF4444" />
-    </linearGradient>
-    <linearGradient id="bgCard" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d18" />
-      <stop offset="100%" stop-color="#05070e" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="glowSec_contact" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <pattern id="cardGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.05" />
-    </pattern>
-    <style>
-      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
-      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    </style>
   </defs>
 
-  <line x1="20" y1="25" x2="160" y2="25" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.4" />
-  <circle cx="165" cy="25" r="3.5" fill="#00F0FF" filter="url(#glow)" />
-  <text x="180" y="30" fill="#00F0FF" font-size="14" font-weight="800" class="font-mono" letter-spacing="2">COMMUNICATION CHANNELS</text>
-  <text x="560" y="29" fill="#64748b" font-size="10" font-weight="500" class="font-mono">// READY FOR AUTONOMOUS DEPLOYMENT</text>
-  <line x1="820" y1="25" x2="930" y2="25" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.4" />
+  <!-- Left glowing line -->
+  <line x1="40" y1="24" x2="294" y2="24" stroke="url(#lineGradLeft_contact)" stroke-width="1.5" />
+  <!-- Left diamond accent -->
+  <polygon points="304,24 308,20 312,24 308,28" fill="#00F0FF" filter="url(#glowSec_contact)" />
+
+  <!-- Centered Clean Title -->
+  <text x="475" y="29" fill="#00F0FF" font-size="13" font-weight="800" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" letter-spacing="3" text-anchor="middle" filter="url(#glowSec_contact)">COMMUNICATION CHANNELS</text>
+
+  <!-- Right diamond accent -->
+  <polygon points="638,24 642,20 646,24 642,28" fill="#00F0FF" filter="url(#glowSec_contact)" />
+  <!-- Right glowing line -->
+  <line x1="656" y1="24" x2="910" y2="24" stroke="url(#lineGradRight_contact)" stroke-width="1.5" />
 </svg>

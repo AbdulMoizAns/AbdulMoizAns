@@ -49,7 +49,7 @@
 
   <!-- Top bar -->
   <g class="font-mono" transform="translate(24, 28)">
-    <text x="0" y="4" fill="#a855f7" font-size="11" font-weight="700" letter-spacing="1">[SaaS-03 // OFFLINE ERP]</text>
+    <text x="0" y="4" fill="#a855f7" font-size="11" font-weight="700" letter-spacing="1">[SaaS-03 • OFFLINE ERP]</text>
     
     <!-- Badge -->
     <g transform="translate(260, -8)">
