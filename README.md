@@ -1,91 +1,232 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
-<!--               QUANTUM // CYBERPUNK HUD BANNER                    -->
+<!--           ⚡ CYBERPUNK HUD ANIMATED SVG HEADER                   -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,40:161b22,70:1a103c,100:090d16&height=220&section=header&text=%E2%9A%A1%20ABDUL%20MOIZ%20ANSARI&fontSize=46&fontColor=00F0FF&fontAlignY=36&desc=SYSTEMS%20%26%20SOFTWARE%20ENGINEER%20%E2%80%A2%20AUTONOMOUS%20DESKTOP%20%26%20CLOUD%20ARCHITECT&descAlignY=58&descColor=c084fc" />
-
-<!-- Status Badges -->
-<p align="center">
-  <a href="https://abdulmoizans.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Live_Portfolio-abdulmoizans.netlify.app-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0d1117" alt="Portfolio" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/abdul-moiz-ansari-91a132234" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://github.com/AbdulMoizAns"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" /></a>&nbsp;
-  <a href="mailto:support@edusaas.site"><img src="https://img.shields.io/badge/Email-Inquiries-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" /></a>
-</p>
-
-<!-- Live View Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AbdulMoizAns&label=SECURITY%20CLEARANCE%20VIEWS&color=00F0FF&style=flat-square" alt="Profile Views" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/SYSTEM_STATUS-OPERATIONAL%20%E2%97%8F-10B981?style=flat-square" alt="Status" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/KERNEL-WIN32%20%2F%20LAYER--3%20TUN-7E3ACE?style=flat-square" alt="Kernel" />
-</p>
-
-<!-- Dynamic Futuristic Typing HUD -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=750&lines=Autonomous+Systems+%26+Low-Level+Windows+Architect;Layer-3+Network+Tunnels+%26+Wintun+Zero-Leak+Engines;Enterprise+Multi-Tenant+Cloud+SaaS+%26+Sub-Second+POS;Offline-First+Local+LAN+Mesh+Architectures;Compiling+Native+C+Executables+%26+Hardware+Watchdogs" alt="Typing SVG" />
+<a href="https://abdulmoizans.netlify.app/" target="_blank">
+  <img src="./assets/header.svg" width="100%" alt="Abdul Moiz Ansari — Autonomous Systems Architect" />
 </a>
 
 <br/><br/>
+
+<!-- Fast-Access Command Deck -->
+<p align="center">
+  <a href="https://abdulmoizans.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_Live_Workstation_Portfolio-abdulmoizans.netlify.app-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=070a12" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/abdul-moiz-ansari-91a132234" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn_Profile-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070a12" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:support@edusaas.site">
+    <img src="https://img.shields.io/badge/Direct_Dispatch-support@edusaas.site-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070a12" alt="Email" />
+  </a>
+</p>
+
+<!-- Telemetry Diagnostics Strip -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AbdulMoizAns&label=HUD%20SECURITY%20SCANS&color=00F0FF&style=flat-square" alt="Scans" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/OPERATIONAL_MODE-AUTONOMOUS%20%E2%97%8F-10B981?style=flat-square" alt="Operational Mode" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/SECURITY_ENGINE-RSA--2048%20%7C%20DPAPI-7E3ACE?style=flat-square" alt="Security" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/CORE_KERNEL-WIN32%20%7C%20LAYER--3%20TUN-FF6B00?style=flat-square" alt="Kernel" />
+</p>
 
 </div>
 
 ---
 
-### 📡 SYSTEM TELEMETRY // OVERVIEW
+### 📡 OPERATOR TELEMETRY // HUD TERMINAL
 
-```yaml
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           OPERATOR SPECIFICATION                            │
-├───────────────────────┬─────────────────────────────────────────────────────┤
-│ IDENTITY              │ Abdul Moiz Ansari                                   │
-│ DISCIPLINE            │ Systems & Software Engineering // SaaS Architecture │
-│ DOMAINS               │ Low-Level Win32, Layer-3 TUN, Cryptography, Cloud   │
-│ OPERATIONAL BASE      │ Pakistan 🇵🇰 (Deployable Globally // Remote First)  │
-│ COMPILATION TARGETS   │ Python 3.12, Native C (Nuitka), TypeScript, Node.js │
-│ SECURITY PROTOCOLS    │ RSA-2048 Offline Auth, DPAPI, DoH 1.1.1.1, AES-256 │
-│ AVAILABILITY          │ [ONLINE] Open for High-Impact Autonomous Contracts   │
-└───────────────────────┴─────────────────────────────────────────────────────┘
+```
+┌──[ ABDUL MOIZ ANSARI @ QUANTUM-OS ]─────────────────────────────────────────[ v2.6.0 ]──┐
+│                                                                                         │
+│  $ whoami --verbose                                                                     │
+│  > OPERATOR     : Abdul Moiz Ansari                                                     │
+│  > DISCIPLINE   : Autonomous Systems & Software Architect • Low-Level Windows Engineer  │
+│  > CLEARANCE    : Level-3 Network Security • Offline-First Mesh • High-Throughput POS   │
+│  > STATUS       : ONLINE // Available for High-Impact Remote Contracts & Tech Roles    │
+│  > BASE         : Pakistan 🇵🇰 (Deployable Globally // Remote-First Autonomy)           │
+│                                                                                         │
+│  $ cat /proc/system_capabilities                                                        │
+│  ├── [KERNEL]     : Win32 API • Wintun Driver • Layer-3 Full-System TUN Routing         │
+│  ├── [COMPILER]   : Python 3.12 compiled to Standalone Native C via MinGW-w64 / Nuitka  │
+│  ├── [PLATFORMS]  : Next.js 15 (Server Actions) • React 19 • FastAPI • Hono Edge Runtime│
+│  ├── [SECURITY]   : RSA-2048 Asymmetric Signatures • Windows DPAPI • Cloudflare DoH    │
+│  └── [PERSISTENCE]: PostgreSQL • SQLite (WAL Concurrency) • Turso LibSQL • Prisma ORM  │
+│                                                                                         │
+│  $ system --benchmark-summary                                                           │
+│  [✓] XION VPN Workstation   : 0% IP/DNS Leak Verified via 2ip.io Audit                  │
+│  [✓] NIZAAM POS Pipeline    : < 500ms End-to-End Checkout Pipeline (0.2s Barcode)       │
+│  [✓] EduSaaS Offline ERP    : < 1.2s Cold Start • 136 Validated REST Endpoints          │
+│  [✓] AI Typing Context      : 69/69 Automated Test Suites Passing (100% Zero-Trust)     │
+│                                                                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚡ FEATURED ENGINEERING WORKSTATIONS & SYSTEMS
+## 🏛️ SYSTEM TOPOLOGY // HIGH-LEVEL ARCHITECTURE
 
-> 🔒 *Architectural case studies of proprietary enterprise platforms alongside fully released open-source utilities.*
+```mermaid
+flowchart LR
+    subgraph DesktopLayer["🖥️ LOW-LEVEL DESKTOP & SYSTEMS KERNEL"]
+        direction TB
+        XION["⚡ XION VPN Workstation
+(Layer-3 TUN • Sing-Box • Wintun)"]
+        DROX["🎨 Drox Screen Studio
+(25-30 FPS BitBlt • FFmpeg Mux)"]
+        TYPING["🤖 AI Typing Assistant
+(N-Gram Engine • Zero-Trust Air-Gap)"]
+        SHOX["⚡ SHOX System Monitor
+(Taskbar Watchdog • < 0.1% CPU)"]
+    end
 
-### 🏢 Enterprise Cloud & Offline-First ERP Ecosystems
+    subgraph SecurityLayer["🛡️ CRYPTOGRAPHIC & PRIVACY SHIELD"]
+        direction TB
+        RSA["RSA-2048 Offline Verification"]
+        DPAPI["Windows DPAPI Encrypted Vault"]
+        DOH["Cloudflare DNS-over-HTTPS (1.1.1.1)"]
+        NUITKA["Nuitka Native C Decompilation Guard"]
+    end
 
-| Workstation / Platform | Architecture & Stack | Key Innovations & Engineering Metrics | Intelligence |
-| :--- | :--- | :--- | :---: |
-| 🛒 **[NIZAAM ERP & POS](https://github.com/AbdulMoizAns/Nizaam-ERP-Showcase)** | `Next.js 15` `React 19` `Turso LibSQL` `Tailwind` | **Sub-500ms checkout pipeline**, magic barcode auto-fill (0.2s), Raast/JazzCash/EasyPaisa digital rails, ESC/POS 58/80mm thermal print engine, multi-branch cloud sync. | [![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-emerald?style=flat-square&logo=gitbook)](https://github.com/AbdulMoizAns/Nizaam-ERP-Showcase) |
-| 🏫 **[EduSaaS Platform](https://github.com/AbdulMoizAns/EduSaaS-Platform-Showcase)** | `Node.js` `Express` `PostgreSQL` `Docker` `Prisma` | **Enterprise multi-tenant school OS**. 8 RBAC tiers, 300+ REST API endpoints, 69 relational DB models, dynamic QR attendance, WhatsApp bot, automated PDF fee invoicing. | [![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-blue?style=flat-square&logo=gitbook)](https://github.com/AbdulMoizAns/EduSaaS-Platform-Showcase) |
-| 🖥️ **[EduSaaS Offline ERP](https://github.com/AbdulMoizAns/EduSaaS-Offline-Showcase)** | `FastAPI` `SQLite WAL` `Nuitka C` `ReportLab` | **Standalone 100% offline desktop ERP for Windows**. 136 REST APIs, multi-device zero-cloud Wi-Fi LAN mesh, 3-copy banking challans, RSA-2048 offline licensing, native C binary. | [![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-purple?style=flat-square&logo=gitbook)](https://github.com/AbdulMoizAns/EduSaaS-Offline-Showcase) |
-| ⚡ **[EduSaaS Lite](https://github.com/AbdulMoizAns/EduSaaS-Lite-Showcase)** | `React 18` `Vite` `Hono Edge` `Prisma` | **Edge-optimized academy & tuition micro-SaaS**. Dynamic 10-second anti-proxy rolling QR pass, in-browser webcam scanner, automated WhatsApp fee ledger. | [![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-orange?style=flat-square&logo=gitbook)](https://github.com/AbdulMoizAns/EduSaaS-Lite-Showcase) |
+    subgraph CloudOffline["☁️ DISTRIBUTED CLOUD SAAS & OFFLINE MESH"]
+        direction TB
+        NIZAAM["🛒 NIZAAM Cloud ERP & POS
+(Next.js 15 • Turso LibSQL • 0.2s Barcode)"]
+        EDUSAAS_OFF["🖥️ EduSaaS Offline ERP
+(FastAPI • SQLite WAL • LAN Wi-Fi Mesh)"]
+        EDUSAAS_CLOUD["🏫 EduSaaS Cloud Platform
+(300+ APIs • 69 Models • WhatsApp Bot)"]
+    end
+
+    DesktopLayer <==> SecurityLayer
+    SecurityLayer <==> CloudOffline
+```
+
+---
+
+## ⚡ FEATURED WORKSTATIONS & ENGINEERING FLAGSHIPS
 
 <br/>
 
-### 🖥️ Desktop Systems, Low-Level Security & AI Tools
+### ⚡ `01 // XION VPN DESKTOP WORKSTATION`
+> **Autonomous Windows Desktop VPN Workstation • Layer-3 Full-System TUN Routing • 0% DNS/IP Leak**
 
-| Workstation / Utility | Core Technologies | Systems Engineering Highlights | Release |
-| :--- | :--- | :--- | :---: |
-| ⚡ **[XION VPN Workstation](https://github.com/AbdulMoizAns/XION-VPN)** | `Python 3.12` `Sing-Box` `CustomTkinter` `Wintun` | **Cyberpunk Desktop VPN Workstation**. Full-system Layer-3 TUN routing, Cloudflare DoH (1.1.1.1), active watchdog kill switch. **0% IP/DNS leak verified on 2ip.io**. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-10B981?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/XION-VPN/releases/tag/v1.0.0) |
-| 🎨 **[Drox Screen Studio](https://github.com/AbdulMoizAns/drox)** | `Python` `PyQt6` `FFmpeg` `GDI BitBlt` `pynput` | **High-performance screen annotation & presentation suite**. Steady 25–30 FPS BitBlt capture, synchronized mic recording muxed to MP4, fading laser pointer, spotlight, blackboard modes. | [![MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AbdulMoizAns/drox) |
-| 🤖 **[ALPHA AI Typing Assistant](https://github.com/AbdulMoizAns/typing-assistant)** | `Python` `NLP` `pywin32` `Air-Gap Security` | **Universal Windows typing accelerator**. Gboard-style spacebar predictions powered by N-grams, Roman Urdu + English corrections, zero-trust offline air-gap firewall. **69/69 tests passing**. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-8B5CF6?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/typing-assistant/releases/tag/v1.0.0) |
-| 🔧 **[Win Driver Updater](https://github.com/AbdulMoizAns/win-driver-updater)** | `Python` `PnPUtil` `Windows API` `Tkinter` | **Autonomous hardware interrogation scanner**. Directly queries Microsoft Update Catalog for genuine WHQL-certified drivers with automated .inf rollback snapshots. Zero pip dependencies. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-2563EB?style=flat-square&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/win-driver-updater/releases/tag/v1.0.0) |
-| ⚡ **[SHOX System Monitor](https://github.com/AbdulMoizAns/shox)** | `Python` `Win32 API` `Taskbar` `Watchdog` | **Ultra-fast, zero-overhead Windows taskbar mini-bar**. Real-time CPU, RAM, disk I/O, network bandwidth, and process hang alerts with < 0.1% CPU consumption. | [![MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/AbdulMoizAns/shox) |
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: Python 3.12 • Sing-Box Core • CustomTkinter • Wintun Driver • Cloudflare DoH     │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Full-System TUN Routing: Encrypts 100% of Windows OS traffic at network Layer-3.       │
+│ • Zero-Leak Guarantee: Passed 100% anonymity audit on 2ip.io (0% IP or DNS leak).       │
+│ • Cyberpunk GUI: 30 FPS animated radar rings with rolling real-time traffic waveforms.   │
+│ • Watchdog Kill Switch: Automated instant network freeze on unexpected tunnel drop.      │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0%20Installer-10B981?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/XION-VPN/releases/tag/v1.0.0)
+&nbsp;
+[![View Repository](https://img.shields.io/badge/Repository-XION--VPN-00F0FF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/AbdulMoizAns/XION-VPN)
 
 <br/>
 
-### 🌐 High-Performance Web & Cryptographic Tools
+### 🎨 `02 // DROX SCREEN STUDIO`
+> **High-Performance Windows Screen Annotation, Interactive Drawing & Synchronized Studio Recorder**
 
-| Project | Stack | Security & Architecture Matrix | Release |
-| :--- | :--- | :--- | :---: |
-| 🔒 **[Password Master](https://github.com/AbdulMoizAns/password-master-tool)** | `React` `Vite` `Tailwind` `Web Crypto API` | **Ethical hacking security workstation**. Shannon entropy calculation, HIBP k-anonymity breach check, brute-force crack-time simulator, 100-article cybersecurity base, TOTP 2FA. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-16A34A?style=flat-square)](https://github.com/AbdulMoizAns/password-master-tool/releases/tag/v1.0.0) |
-| 📍 **[StampSnap Pro](https://github.com/AbdulMoizAns/StampSnap-Pro-GPS-Photo-Stamper)** | `TypeScript` `React` `Konva Canvas` `EXIF` | **Field inspection GPS photo stamper**. Overlays high-accuracy GPS coordinates, mini-maps, custom timestamps, and enterprise logos while preserving raw EXIF metadata. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-EA580C?style=flat-square)](https://github.com/AbdulMoizAns/StampSnap-Pro-GPS-Photo-Stamper/releases/tag/v1.0.0) |
-| 🌦️ **[SkyCast Weather](https://github.com/AbdulMoizAns/SkyCast-Weather)** | `TypeScript` `React` `TailwindCSS` `Open-Meteo` | **Glassmorphism meteorological dashboard**. 7-day extended forecasts, Air Quality Index (PM2.5, PM10, UV) telemetry, and global multi-city radar. | [![v1.0.0](https://img.shields.io/badge/Release-v1.0.0-0EA5E9?style=flat-square)](https://github.com/AbdulMoizAns/SkyCast-Weather/releases/tag/v1.0.0) |
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: Python 3.12 • PyQt6 • FFmpeg • Windows GDI BitBlt • SoundDevice • pynput         │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • High-Speed GDI Capture: Steady 25–30 FPS BitBlt video capture with crisp cursor.      │
+│ • Synchronized Mic Muxer: Records microphone stream simultaneously and muxes to MP4.    │
+│ • Presentation Suite: Fading laser pointer trail, audience spotlight circle, and boards. │
+│ • Instant Pass-Through: Tap F2 to pass mouse clicks directly to underlying PowerPoint.   │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/AbdulMoizAns/drox)
+&nbsp;
+[![View Repository](https://img.shields.io/badge/Repository-drox-00F0FF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/AbdulMoizAns/drox)
+
+<br/>
+
+### 🖥️ `03 // EDUSAAS OFFLINE WINDOWS ERP`
+> **Standalone Zero-Internet School Management ERP & Multi-Device Local LAN Wi-Fi Mesh**
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: FastAPI • SQLite (WAL Mode) • Nuitka Native C • PyWebView • ReportLab • RSA-2048  │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • 100% Offline Autonomy: Runs on a single Windows laptop without internet connection.     │
+│ • Dual-Mode LAN Mesh: Solo loopback guard vs. local Wi-Fi sharing for mobile/tablets.   │
+│ • Anti-Piracy Armor: Compiled from Python to native C via Nuitka (zero bytecode).        │
+│ • Vector PDF Engine: Sub-200ms ReportLab generator for 3-copy bank challans & DMCs.      │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-purple?style=for-the-badge&logo=gitbook)](https://github.com/AbdulMoizAns/EduSaaS-Offline-Showcase)
+&nbsp;
+[![Download Setup](https://img.shields.io/badge/Download-EduSaaS--Setup.exe-00F0FF?style=for-the-badge&logo=windows&logoColor=black)](https://github.com/AbdulMoizAns/EduSaaS-Downloads/releases/latest/download/EduSaaS-Setup.exe)
+&nbsp;
+[![Live Website](https://img.shields.io/badge/Official%20Site-edusaas.site-10B981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://edusaas.site)
+
+<br/>
+
+### 🛒 `04 // NIZAAM CLOUD ERP & POINT OF SALE`
+> **Cloud ERP & High-Throughput Point of Sale Ecosystem with Sub-Second Checkout Pipeline**
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: Next.js 15 (Server Actions) • React 19 • Turso LibSQL • Tailwind CSS • ESC/POS    │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Sub-500ms Register Pipeline: Microsecond barcode resolution and instant cashout.       │
+│ • Magic Barcode Auto-Fill: Resolves product names and imagery in 0.2s via proxy.         │
+│ • Hardware Integration: ESC/POS 58mm/80mm thermal receipt printing with verification QR. │
+│ • Local Digital Rails: Integrated Raast, JazzCash, and EasyPaisa payment flows.          │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-emerald?style=for-the-badge&logo=gitbook)](https://github.com/AbdulMoizAns/Nizaam-ERP-Showcase)
+
+<br/>
+
+### 🏫 `05 // EDUSAAS ENTERPRISE CLOUD PLATFORM`
+> **Comprehensive Multi-Tenant Institutional Operating System & Academic Infrastructure**
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: Node.js • Express • React • PostgreSQL • Prisma ORM • Docker • Baileys WhatsApp   │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • 8 Isolated RBAC Roles: Super Admin, Principal, Teacher, Student, Parent, Accountant.   │
+│ • Extensive API Surface: 300+ secure REST endpoints and 69 relational domain models.     │
+│ • Dynamic QR Attendance: Mobile & webcam scanner eliminating attendance proxy fraud.     │
+│ • WhatsApp Automation: Multi-device headless bot dispatching automated fee vouchers.    │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![Case Study](https://img.shields.io/badge/Case%20Study-Architecture-blue?style=for-the-badge&logo=gitbook)](https://github.com/AbdulMoizAns/EduSaaS-Platform-Showcase)
+&nbsp;
+[![Live Platform](https://img.shields.io/badge/Production-Live%20at%20edusaas.site-emerald?style=for-the-badge&logo=googlechrome&logoColor=white)](https://edusaas.site)
+&nbsp;
+[![Android Releases](https://img.shields.io/badge/Mobile-Android%20Releases-7E3ACE?style=for-the-badge&logo=android&logoColor=white)](https://github.com/AbdulMoizAns/edusaas-mobile-releases)
+
+<br/>
+
+### 🤖 `06 // ALPHA AI TYPING ASSISTANT`
+> **Universal Windows Typing Accelerator with Offline Air-Gapped Zero-Trust Firewall**
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────┐
+│ STACK: Python 3.12 • NLP N-Gram Context Engine • pywin32 • Caret API • Windows Firewall  │
+├──────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Contextual Prediction: Google Gboard-style spacebar predictions powered by bigrams.    │
+│ • Dual Language: Fluent phonetic correction for Roman Urdu and international English.   │
+│ • Air-Gap Firewall: 100% offline isolated process ensuring zero keystroke leakage.       │
+│ • Test Integrity: 69/69 automated test suites passing with 100% verification.           │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
+```
+[![Release v1.0.0](https://img.shields.io/badge/Release-v1.0.0%20Installer-8B5CF6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/AbdulMoizAns/typing-assistant/releases/tag/v1.0.0)
+&nbsp;
+[![View Repository](https://img.shields.io/badge/Repository-typing--assistant-00F0FF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/AbdulMoizAns/typing-assistant)
 
 ---
 
@@ -93,17 +234,16 @@
 
 <div align="center">
 
-### 🖥️ Systems, Kernel & Desktop Engineering
+### 🖥️ Low-Level Systems, Drivers & Native Runtimes
 <p>
   <img src="https://img.shields.io/badge/Python_3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nuitka_Native_C-FFD43B?style=for-the-badge&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/Windows_API_(Win32)-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nuitka_Native_C_Compiler-FFD43B?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows_Win32_API-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Wintun_Driver-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Layer--3_TUN_Routing-FF6B00?style=for-the-badge&logo=wireguard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sing--Box_Engine-FF5722?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Sing--Box_Core-FF5722?style=for-the-badge" />
   <img src="https://img.shields.io/badge/PyQt6_GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
-  <img src="https://img.shields.io/badge/FFmpeg_Core-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" />
-  <img src="https://img.shields.io/badge/CustomTkinter-2B2B2B?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FFmpeg_Muxer-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" />
 </p>
 
 ### 🔒 Cryptography, Security & Network Protocols
@@ -113,17 +253,17 @@
   <img src="https://img.shields.io/badge/Cloudflare_DoH_1.1.1.1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/AES--256--GCM-10B981?style=for-the-badge&logo=securityscorecard&logoColor=white" />
   <img src="https://img.shields.io/badge/HIBP_k--Anonymity-16A34A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Zero--Trust_Air--Gap-7E3ACE?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Hardware_Fingerprinting_(HWID)-4F46E5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Air--Gap_Firewall-7E3ACE?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hardware_Fingerprint_(HWID)-4F46E5?style=for-the-badge" />
 </p>
 
-### ☁️ Distributed SaaS, High-Throughput Web & Backends
+### ☁️ Enterprise Cloud SaaS, High-Throughput Web & Backends
 <p>
-  <img src="https://img.shields.io/badge/Next.js_15_(App_Router)-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_15_(Server_Actions)-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/React_19_/_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/FastAPI_Async-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js_/_Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hono_Edge_Runtime-E36002?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hono_Edge_Engine-E36002?style=for-the-badge&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
@@ -132,10 +272,10 @@
 ### 🗄️ Relational Data Engines, Edge Replication & DevOps
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite_(WAL_Mode)-00FFE0?style=for-the-badge&logo=sqlite&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQLite_(WAL_Concurrency)-00FFE0?style=for-the-badge&logo=sqlite&logoColor=black" />
   <img src="https://img.shields.io/badge/Turso_LibSQL_Edge-00F0FF?style=for-the-badge&logo=turso&logoColor=black" />
   <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker_Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/ReportLab_Vector_PDF-E11D48?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Inno_Setup_6-0A85EA?style=for-the-badge" />
 </p>
@@ -144,42 +284,28 @@
 
 ---
 
-## 📊 TELEMETRY & LIVE PERFORMANCE BENCHMARKS
-
-```
-⚡ XION VPN Leak Audit         : 0% IP / DNS Leak (100% Passed via 2ip.io)
-🚀 NIZAAM POS Register         : < 500ms Complete Checkout Pipeline
-📦 EduSaaS Offline Start Time  : < 1.2s to Interactive Desktop Shell
-🔌 REST API Surface Combined   : 430+ Validated Production Endpoints
-📄 ReportLab Vector PDF Engine : < 180ms per 3-Copy Bank Challan / DMC
-🧠 AI Typing Context Engine    : 69/69 Automated Test Suites Passing (100%)
-🛡️ Decompilation Defense       : Native C Binaries (Bytecode Stripped via Nuitka)
-```
-
----
-
-## 📈 GITHUB TELEMETRY & ACTIVITY METRICS
+## 📈 TELEMETRY & ACTIVITY DASHBOARD
 
 <div align="center">
 
-<table border="0">
+<table border="0" style="background:transparent;">
   <tr>
-    <td>
-      <img height="180" src="https://github-readme-stats.vercel.app/api?username=AbdulMoizAns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" />
+    <td align="center">
+      <img height="185" src="https://github-readme-stats.vercel.app/api?username=AbdulMoizAns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070a12&title_color=00F0FF&icon_color=00F0FF&text_color=cbd5e1&rank_icon=github" alt="GitHub Stats" />
     </td>
-    <td>
-      <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulMoizAns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+    <td align="center">
+      <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulMoizAns&layout=compact&theme=tokyonight&hide_border=true&bg_color=070a12&title_color=00F0FF&text_color=cbd5e1&langs_count=8" alt="Top Languages" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<img width="85%" src="https://github-readme-streak-stats.herokuapp.com/?user=AbdulMoizAns&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F0FF&ring=00F0FF&fire=FF6B00&currStreakLabel=00F0FF" alt="GitHub Streak" />
+<img width="85%" src="https://github-readme-streak-stats.herokuapp.com/?user=AbdulMoizAns&theme=tokyonight&hide_border=true&background=070a12&stroke=00F0FF&ring=00F0FF&fire=FF6B00&currStreakLabel=00F0FF" alt="GitHub Streak" />
 
 <br/><br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AbdulMoizAns&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F0FF&line=00F0FF&point=FF6B00" alt="Activity Graph" />
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=AbdulMoizAns&theme=tokyo-night&hide_border=true&bg_color=070a12&color=00F0FF&line=00F0FF&point=FF6B00" alt="Activity Graph" />
 
 <br/><br/>
 
@@ -189,38 +315,35 @@
 
 ---
 
-## 🤝 SYSTEM COLLABORATION & DIRECT CHANNELS
+## 🤝 DIRECT COLLABORATION CHANNELS
 
 <div align="center">
 
-| 🚀 **High-Impact Engagement** | 🔒 **Specialized Focus Areas** |
+| 🚀 **High-Impact Engagement** | 🔒 **Deep Technical Focus Areas** |
 | :--- | :--- |
-| ✅ **Remote Full-Stack & Systems Engineering** | 🛡️ **Layer-3 TUN Network Security & Privacy Workstations** |
-| ✅ **Enterprise Cloud ERP / SaaS Architecture** | 🖥️ **High-Performance Windows Desktop Software & Daemons** |
-| ✅ **Offline-First Multi-Device Local Mesh Systems** | ⚡ **Sub-Second POS Pipelines & Hardware Printer Drivers** |
-| ✅ **Open-Source Infrastructure & Autonomous Systems** | 🤖 **AI Assistant Utilities & Offline NLP Engines** |
+| ✅ **Autonomous Systems & Software Architecture** | 🛡️ **Layer-3 TUN Network Security Workstations** |
+| ✅ **Enterprise Multi-Tenant Cloud ERP / SaaS** | 🖥️ **High-Performance Windows Desktop Software & Daemons** |
+| ✅ **Offline-First Zero-Internet Local LAN Mesh** | ⚡ **Sub-Second POS Pipelines & Hardware Printer Drivers** |
+| ✅ **Deep-Tech Cryptographic Licensing & Hardware Locks** | 🤖 **AI Assistant Utilities & Offline NLP Engines** |
 
 <br/>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abdul-moiz-ansari-91a132234" target="_blank">
-    <img src="https://img.shields.io/badge/Direct_LinkedIn_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn_Profile-Direct_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=070a12" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://abdulmoizans.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Interactive_Portfolio_Console-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0d1117" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Live_Portfolio_Console-Interactive_UI-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=070a12" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:support@edusaas.site">
-    <img src="https://img.shields.io/badge/Encrypted_Inbox-support@edusaas.site-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
+    <img src="https://img.shields.io/badge/Encrypted_Inbox-support@edusaas.site-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=070a12" alt="Email" />
   </a>
 </p>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,30:1a103c,60:161b22,100:0d1117&height=50&section=footer" />
-
-<br/>
 <sub>© 2024–2026 Abdul Moiz Ansari — Autonomous Systems & Software Engineer. Engineered with precision.</sub>
 
 </div>

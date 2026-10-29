@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 400" width="100%" height="100%" style="background:#070a12;border-radius:16px;overflow:hidden;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#FF007A" />
+    </linearGradient>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12" />
+      <stop offset="50%" stop-color="#0d1122" />
+      <stop offset="100%" stop-color="#05070e" />
+    </linearGradient>
+
+    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.15" />
+    </linearGradient>
+
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Filters for Neon Glow -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Background Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.7" stroke-opacity="0.08" />
+      <circle cx="40" cy="40" r="1" fill="#00f0ff" fill-opacity="0.2" />
+    </pattern>
+
+    <style>
+      @keyframes scanline {
+        0% { transform: translateY(-10px); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateY(410px); opacity: 0; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 6px #00f0ff); }
+        50% { opacity: 1; filter: drop-shadow(0 0 16px #a855f7); }
+      }
+      @keyframes radarSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .scanner-bar {
+        animation: scanline 5s linear infinite;
+      }
+      .pulse-title {
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .radar-reticle {
+        transform-origin: 870px 70px;
+        animation: radarSpin 12s linear infinite;
+      }
+      .cursor-blink {
+        animation: blink 1s infinite;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      .font-display {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="950" height="400" fill="url(#bgGrad)" />
+  <rect width="950" height="400" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="150" cy="120" r="160" fill="#00f0ff" opacity="0.08" filter="blur(60px)" />
+  <circle cx="800" cy="280" r="180" fill="#a855f7" opacity="0.10" filter="blur(80px)" />
+  <circle cx="500" cy="200" r="120" fill="#ff007a" opacity="0.05" filter="blur(70px)" />
+
+  <!-- Outer HUD Frame -->
+  <rect x="18" y="18" width="914" height="364" rx="12" fill="none" stroke="#00f0ff" stroke-width="1.2" stroke-opacity="0.3" />
+  <rect x="24" y="24" width="902" height="352" rx="8" fill="none" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.2" />
+
+  <!-- Corner Tech Brackets -->
+  <!-- Top Left -->
+  <path d="M 14 36 L 14 14 L 36 14" fill="none" stroke="#00f0ff" stroke-width="3.5" filter="url(#softGlow)" />
+  <circle cx="36" cy="14" r="2.5" fill="#00f0ff" />
+  
+  <!-- Top Right -->
+  <path d="M 914 14 L 936 14 L 936 36" fill="none" stroke="#00f0ff" stroke-width="3.5" filter="url(#softGlow)" />
+  <circle cx="914" cy="14" r="2.5" fill="#00f0ff" />
+  
+  <!-- Bottom Left -->
+  <path d="M 14 364 L 14 386 L 36 386" fill="none" stroke="#00f0ff" stroke-width="3.5" filter="url(#softGlow)" />
+  <circle cx="36" cy="386" r="2.5" fill="#00f0ff" />
+  
+  <!-- Bottom Right -->
+  <path d="M 914 386 L 936 386 L 936 364" fill="none" stroke="#00f0ff" stroke-width="3.5" filter="url(#softGlow)" />
+  <circle cx="914" cy="386" r="2.5" fill="#00f0ff" />
+
+  <!-- Animated Scanline Laser -->
+  <rect class="scanner-bar" x="20" y="0" width="910" height="2" fill="url(#laserGrad)" filter="url(#softGlow)" />
+
+  <!-- Top System Bar -->
+  <g class="font-mono">
+    <!-- Blinking Status Dot -->
+    <circle cx="48" cy="46" r="5" fill="#10b981" filter="url(#softGlow)" />
+    <circle cx="48" cy="46" r="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <text x="64" y="50" fill="#10b981" font-size="11" font-weight="700" letter-spacing="1.5">SYS_ONLINE // SEC_CLEARANCE_LVL3</text>
+    <text x="460" y="50" fill="#64748b" font-size="11" font-weight="500" letter-spacing="2">HASH: 0x7E3A-00F0-L3TUN</text>
+    <text x="740" y="50" fill="#a855f7" font-size="11" font-weight="600" letter-spacing="1.5">NODE: PAK_CORE_01</text>
+    <line x1="36" y1="62" x2="914" y2="62" stroke="#334155" stroke-width="0.8" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Holographic Radar Reticle in Top Right -->
+  <g class="radar-reticle" opacity="0.5">
+    <circle cx="870" cy="70" r="32" fill="none" stroke="#00f0ff" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="870" cy="70" r="22" fill="none" stroke="#a855f7" stroke-width="0.8" />
+    <line x1="835" y1="70" x2="905" y2="70" stroke="#00f0ff" stroke-width="0.8" />
+    <line x1="870" y1="35" x2="870" y2="105" stroke="#00f0ff" stroke-width="0.8" />
+    <path d="M 870 70 L 892 48" stroke="#00f0ff" stroke-width="1.5" />
+  </g>
+
+  <!-- Central Operator Identity Block -->
+  <g transform="translate(48, 120)">
+    <!-- Terminal Prompt Line -->
+    <text x="0" y="0" fill="#00f0ff" font-size="13" class="font-mono" font-weight="600" letter-spacing="1">
+      &gt; root@quantum-station:~$ launch --operator-profile
+    </text>
+
+    <!-- Main Glowing Name -->
+    <text x="0" y="52" fill="url(#cyberGrad)" font-size="44" class="font-display pulse-title" letter-spacing="-0.5">
+      ABDUL MOIZ ANSARI
+    </text>
+
+    <!-- Dynamic Subtitle -->
+    <text x="0" y="85" fill="#f1f5f9" font-size="15" class="font-mono" font-weight="600" letter-spacing="0.5">
+      AUTONOMOUS SYSTEMS ARCHITECT <tspan fill="#00f0ff">|</tspan> LOW-LEVEL WIN32 &amp; LAYER-3 TUN
+    </text>
+
+    <text x="0" y="108" fill="#94a3b8" font-size="13" class="font-mono">
+      Building Leak-Proof Network Workstations, High-Throughput POS Runtimes &amp; Offline Mesh Systems
+      <tspan class="cursor-blink" fill="#00f0ff">_</tspan>
+    </text>
+  </g>
+
+  <!-- Futuristic Capability HUD Chips (Bottom Deck) -->
+  <g transform="translate(48, 275)" class="font-mono">
+    
+    <!-- Chip 1: XION VPN -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="42" rx="8" fill="#0f172a" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="18" cy="21" r="4" fill="#00f0ff" filter="url(#softGlow)" />
+      <text x="32" y="18" fill="#00f0ff" font-size="10" font-weight="700" letter-spacing="1">XION WORKSTATION</text>
+      <text x="32" y="32" fill="#cbd5e1" font-size="10">Layer-3 TUN • 0% DNS Leak (2ip.io)</text>
+    </g>
+
+    <!-- Chip 2: NIZAAM ERP POS -->
+    <g transform="translate(290, 0)">
+      <rect width="265" height="42" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="18" cy="21" r="4" fill="#a855f7" filter="url(#softGlow)" />
+      <text x="32" y="18" fill="#a855f7" font-size="10" font-weight="700" letter-spacing="1">NIZAAM CLOUD POS</text>
+      <text x="32" y="32" fill="#cbd5e1" font-size="10">Next.js 15 • &lt; 500ms Checkout Flow</text>
+    </g>
+
+    <!-- Chip 3: EDUSAAS OFFLINE -->
+    <g transform="translate(580, 0)">
+      <rect width="265" height="42" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1" stroke-opacity="0.5" />
+      <circle cx="18" cy="21" r="4" fill="#10b981" filter="url(#softGlow)" />
+      <text x="32" y="18" fill="#10b981" font-size="10" font-weight="700" letter-spacing="1">EDUSAAS OFFLINE ERP</text>
+      <text x="32" y="32" fill="#cbd5e1" font-size="10">Native C (Nuitka) • SQLite WAL Mesh</text>
+    </g>
+
+  </g>
+
+  <!-- Bottom Hardware Spec Line -->
+  <g transform="translate(48, 350)" class="font-mono">
+    <line x1="0" y1="0" x2="854" y2="0" stroke="#334155" stroke-width="0.8" stroke-dasharray="3 3" />
+    <text x="0" y="18" fill="#64748b" font-size="10" letter-spacing="1">CORE_TARGETS: [PYTHON_3.12, C/NUITKA, WIN32, TYPESCRIPT, FASTAPI, TURSO, DOCKER]</text>
+    <text x="690" y="18" fill="#00f0ff" font-size="10" font-weight="700" letter-spacing="1">&gt;&gt;&gt; READY_FOR_DEPLOY</text>
+  </g>
+
+</svg>
